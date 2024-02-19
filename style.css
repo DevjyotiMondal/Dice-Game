@@ -1,0 +1,102 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.rules{
+    font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+      
+}
+.Intro{
+    
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal; */
+  
+}
+/* .refresh {
+    font-size: 106px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* border-radius: 50px;
+    background-color: beige; */
+    /* color: blueviolet; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+} */ 
+#refreshButton{
+    font-size: 80px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px ;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+#refreshButton:hover
+{
+    background-color: antiquewhite;
+}
+body{
+    background-color: #9195F6;
+}
+/* .massage{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family
+} */
+p{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #B7C9F2;
+}
+.massage
+{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-family: ; */
+    font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dice1, .dice2 {
+    display: inline-block; /* Change to inline-block to make them appear side by side */
+    margin: 10px;
+    text-align: center; /* Center text (Player 1 and Player 2) */
+}
+.img1, .img2 {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    color: #F9F07A;
+}
